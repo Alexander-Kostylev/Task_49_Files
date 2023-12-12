@@ -38,6 +38,7 @@ class NameError(Exception):
 files_name = list(filter(lambda f: f.endswith("csv"), listdir(path='.')))
 
 
+# Ввод данных для базы данных
 def get_info():
     is_valid_first_name = False
     while not is_valid_first_name:
